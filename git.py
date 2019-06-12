@@ -11,6 +11,7 @@ def git_exit():
     exit()
 while 1:
     list = [("上传","git_push"),("下载","git_pull"),("退出","git_exit")]
+    print("------------  git  -------------")
     for i,j in enumerate(list,1):
         print(i,j[0])
     choise = input("请选择>>>").strip()
