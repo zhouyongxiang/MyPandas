@@ -18,7 +18,7 @@ while 1:
     choise = input("请选择>>>").strip()
     if choise.isdigit():
         choise = int(choise) - 1
-        if choise < len(list) and choise>0:
+        if choise < len(list) and choise>=0:
             list[choise][1]()
         else:
             print("没有此菜单")
