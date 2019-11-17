@@ -1,4 +1,5 @@
-#coding:gbk
+
+
 L = [
  ['Apple', 'Google', 'Microsoft'],
  ['Java', 'Python', 'Ruby', 'PHP'],
@@ -10,5 +11,7 @@ def li(k):
 		if not isinstance(i,list):
 			print(i)
 		else:
-			li(i)			        
+			li(i)
+			
+            
 li(L)
