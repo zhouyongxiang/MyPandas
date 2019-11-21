@@ -1,5 +1,6 @@
 import os
 os.chdir("H:\zyx")
+
 def git_push():
     os.system("git add -A")
     str = input("输入上传信息：")
